@@ -1,0 +1,74 @@
+/* Import Google Fonts for a more refined typography */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+/* Root and body styling for consistent font and background across the app */
+:root {
+    --primary-color: #0056b3;
+    --secondary-color: #f0f0f0;
+    --accent-color: #ff4b4b;
+    --text-color: #333;
+    --text-light: #666;
+    --font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0;
+}
+
+/* Streamlit-specific components styling */
+.css-2trqyj {
+    background-color: var(--secondary-color);
+}
+
+/* Sidebar styling for cleaner look */
+.css-1d391kg {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Titles and headers customization */
+h1, h2, h3 {
+    color: var(--primary-color);
+}
+
+/* Button customization for better UX */
+.stButton>button {
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: darken(var(--accent-color), 10%);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Input fields styling */
+input {
+    border-radius: 5px;
+    padding: 8px;
+    border: 2px solid var(--primary-color);
+}
+
+input:focus {
+    border-color: var(--accent-color);
+    outline: none;
+}
+
+/* Footer section */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 14px;
+    background-color: var(--primary-color);
+    color: white;
+}
