@@ -3,6 +3,9 @@
 
 "Urban Footprints" is a Streamlit-based web application designed to provide interactive mapping functionalities tailored for urban planning and analytics. This application allows users to log in to view specific mapped regions, presenting detailed metrics and data visualization related to urban footprints.
 
+![Webpage](images/screenshot.png "Webpage")
+
+
 ## Features
 
 - **User Authentication**: Secure login and logout functionality.
@@ -15,22 +18,22 @@
 To get started with "Urban Footprints", follow these steps:
 
 1. **Clone the Repository**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/urban-footprints.git
    cd urban-footprints
-   \`\`\`
+   ```
 
 2. **Install Required Libraries**
    Ensure you have Python installed, and then install the required libraries using:
-   \`\`\`bash
+   ```bash
    pip install -r requirements.txt
-   \`\`\`
+   ```
 
 3. **Run the Application**
    Navigate to the project directory and run the application with:
-   \`\`\`bash
+   ```bash
    streamlit run app.py
-   \`\`\`
+   ```
 
 ## Usage
 
@@ -69,6 +72,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 For any additional questions or feedback, please contact [urbanfootprints@uw.edu.pl](mailto:urbanfootprints@uw.edu.pl).
 
-
-![Webpage](images/screenshot.png "Webpage")
 
