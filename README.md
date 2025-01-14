@@ -23,24 +23,23 @@ To get started with "Urban Footprints", follow these steps:
    cd urban-footprints
    ```
 
-2. **Install Required Libraries**
-   Ensure you have Python installed, and then install the required libraries using:
+2. **Run run_app.py**
    ```bash
-   pip install -r requirements.txt
+   python3 run_app.py
    ```
-
-3. **Run the Application**
-   Navigate to the project directory and run the application with:
-   ```bash
-   streamlit run app.py
-   ```
+### It's that easy!
 
 ## Usage
 
-After launching the app, you'll be greeted with a login screen. Use any of the predefined user credentials to log in and view the maps:
+After launching the app by running run_app.py, you will see sample user names printed on your terminal. In the login screen use any of the predefined user credentials to log in and view the maps. Note - All users have admin password.
 
-- **Username**: user1 to user10
-- **Password**: admin (for all users)
+**Note** - You can also skip second step which initialises the DB and creates map for dummy users, as they are already added as part of this repo. You can directly run this after cloning the repo   
+```bash
+   streamlit run app.py
+   ```
+and use the existing DB. List of user names for this (all have password set as "admin"):
+
+['ChadBeck', 'MeganParrish', 'SarahGibson', 'HaileyZavala', 'TonyDay', 'Dr.MarioFrench', 'KellyGarciaMD', 'MistyZuniga', 'StephanieSmith', 'ErikGates']
 
 Once logged in, you can view interactive maps and associated metrics. Use the sidebar to toggle metrics visibility or to log out.
 
@@ -52,9 +51,14 @@ urban-footprints/ <br>
    &nbsp;&nbsp; ├── user2_map.html       <br>
    &nbsp;&nbsp; └── ...                  <br>
 ├── app.py                   <br>
+├── db_init.py               <br>
 ├── map_generator.py         <br>
 ├── requirements.txt         <br>
 └── style.css                <br>
+└── run_app.py               <br> 
+└── README.md                <br>
+└── streets_assignment.db    <br>
+
 
 ## Map Generator
 
