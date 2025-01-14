@@ -68,10 +68,6 @@ urban-footprints/ <br>
 
 Contributions to "Urban Footprints" are welcome! Please fork the repository and submit a pull request with your suggested changes.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Contact
 
 For any additional questions or feedback, please contact [urbanfootprints@uw.edu.pl](mailto:urbanfootprints@uw.edu.pl).
