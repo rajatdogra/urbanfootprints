@@ -3,7 +3,7 @@
 
 "Urban Footprints" is a Streamlit-based web application designed to provide interactive mapping functionalities tailored for urban planning and analytics. This application allows users to log in to view specific mapped regions, presenting detailed metrics and data visualization related to urban footprints.
 
-![Webpage](images/screenshot.png "Webpage")
+![Webpage](images/screenshot.png "Frontend")
 
 
 ## Features
