@@ -1,3 +1,6 @@
+# Added comments via Gen AI, and used it to clean the code (developed in notebook,
+# so it had some prints statements and repeat code)
+
 import os
 import sqlite3
 import folium

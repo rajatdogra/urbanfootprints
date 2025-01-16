@@ -68,8 +68,9 @@ urban-footprints/ <br>
 
 Contributions to "Urban Footprints" are welcome! Please fork the repository and submit a pull request with your suggested changes.
 
-## Contact
-
 For any additional questions or feedback, please contact [urbanfootprints@uw.edu.pl](mailto:urbanfootprints@uw.edu.pl).
 
+## Use of Gen AI
 
+Gen AI was generally used to make code more readable (by adding comments, removing print statements and other redundancy)
+It was also used to improve the look of frontend by enhancing the design, colours etc. Specific details about usage scope are added on top of each file as comments.

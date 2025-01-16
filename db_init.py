@@ -1,3 +1,7 @@
+# Gen AI Used to add comments to script and make it clean (used a notebook to develop 
+# which was not the cleanest code, so asked AI to make it a bit clean, remove all print/debugging 
+# related statements.)
+
 import osmnx as ox
 import warnings
 import pandas as pd

@@ -1,3 +1,11 @@
+## Scope of Gen AI in this script
+# 1. Asked Claude to add comments to this script to make it more readable
+# 2. Used AI to improve frontend (app.py and style.css). I created a basic streamlit frontend and then used  
+#    Claude to enhance the look and feel (making logout button red in colour, 
+#      creating a nice looking KPI boxes, adding display_footer function. After it was generated via Gen AI,
+#      I still had to modify it a little to work perfectly.)
+
+
 import streamlit as st
 import sqlite3
 import os
