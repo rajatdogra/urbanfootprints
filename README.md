@@ -23,7 +23,18 @@ To get started with "Urban Footprints", follow these steps:
    cd urban-footprints
    ```
 
-2. **Run run_app.py**
+   **Note** - You can also clone the code and skip second step which initialises the DB and creates map for dummy users, as they are already added as part of this repo. You can directly run this command after cloning the repo   
+```bash
+   streamlit run app.py
+   ```
+and use the existing DB. List of user names for this (all have password set as "admin"):
+
+['ChadBeck', 'MeganParrish', 'SarahGibson', 'HaileyZavala', 'TonyDay', 'Dr.MarioFrench', 'KellyGarciaMD', 'MistyZuniga', 'StephanieSmith', 'ErikGates']
+
+Once logged in, you can view interactive maps and associated metrics. Use the sidebar to toggle metrics visibility or to log out.
+
+
+2. **Run run_app.py** (In case you want reinitialise the DB and generate new maps)
    ```bash
    python3 run_app.py
    ```
@@ -33,15 +44,6 @@ To get started with "Urban Footprints", follow these steps:
 
 After launching the app by running run_app.py, you will see sample user names printed on your terminal. In the login screen use any of the predefined user credentials to log in and view the maps. Note - All users have admin password.
 
-**Note** - You can also skip second step which initialises the DB and creates map for dummy users, as they are already added as part of this repo. You can directly run this after cloning the repo   
-```bash
-   streamlit run app.py
-   ```
-and use the existing DB. List of user names for this (all have password set as "admin"):
-
-['ChadBeck', 'MeganParrish', 'SarahGibson', 'HaileyZavala', 'TonyDay', 'Dr.MarioFrench', 'KellyGarciaMD', 'MistyZuniga', 'StephanieSmith', 'ErikGates']
-
-Once logged in, you can view interactive maps and associated metrics. Use the sidebar to toggle metrics visibility or to log out.
 
 ## Project Structure
 
