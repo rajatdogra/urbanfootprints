@@ -72,5 +72,6 @@ For any additional questions or feedback, please contact [urbanfootprints@uw.edu
 
 ## Use of Gen AI
 
-Gen AI was generally used to make code more readable (by adding comments, removing print statements and other redundancy)
+Gen AI (Claude/ChatGPT) was generally used to make code more readable (by adding comments, removing print statements and other redundancy)
 It was also used to improve the look of frontend by enhancing the design, colours etc. Specific details about usage scope are added on top of each file as comments.
+Mardown file content was also improved through prompts. 
