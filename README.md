@@ -23,7 +23,7 @@ To get started with "Urban Footprints", follow these steps:
    cd urban-footprints
    ```
 
-   **Note** - You can also clone the code and skip second step which initialises the DB and creates map for dummy users, as they are already added as part of this repo. You can directly run this command after cloning the repo   
+   **Note** - To test , you can also skip second step which initialises the DB and creates map for dummy users, as they are already added as part of this repo. You can directly run this command after cloning the repo   
 ```bash
    streamlit run app.py
    ```
@@ -38,12 +38,10 @@ Once logged in, you can view interactive maps and associated metrics. Use the si
    ```bash
    python3 run_app.py
    ```
+
+   After launching the app by running run_app.py, you will see sample user names printed on your terminal. In the login screen use any of the predefined user credentials to log in and view the maps. Note - All users have admin password.
+
 ### It's that easy!
-
-## Usage
-
-After launching the app by running run_app.py, you will see sample user names printed on your terminal. In the login screen use any of the predefined user credentials to log in and view the maps. Note - All users have admin password.
-
 
 ## Project Structure
 
